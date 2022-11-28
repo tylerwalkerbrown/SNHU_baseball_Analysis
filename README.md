@@ -35,6 +35,10 @@ Base on balls for the SNHU followed closely to a gamma distribution (skewing to 
 Looking at the average era of each of the different locations. This holds the common understanding of home field advantage showing a lower era while the Penman play at home. Neutral settings are actually holding the lowest era out of the three options. The reason that neutral is an option is becuase in college baseball you have times that fields may flood, snow (turf complex) and then playoffs are played at neutral settings if the host team is kicked out of the tournament.
 ![output_49_0](https://user-images.githubusercontent.com/94020684/203548214-ec8459f0-d9c1-4593-ab25-ee3b287bb684.png)
 Home and away does not sem to have a huge impact for SNHU hitters. Neutral settings are higher on average compared to both home and away.
+# Logistic Regression
 ![output_97_0](https://user-images.githubusercontent.com/94020684/203548215-9d405db0-2bd0-4cb5-92b2-ad3818584399.png)
+Logistic regression proved to be the most accurate when predicting wins (1) and losses (0). The model was able to perform with an accuracy score of 98.18%. In the confusion matrix of our testing dataset that took in 25% of the total observations (52 total). 
 ![output_104_0](https://user-images.githubusercontent.com/94020684/203548217-bd52b430-7a24-4da3-a465-64ae9a195959.png)
+In the plot of the actuals vs the predicted you can see in 2022 that logistic regression falsly predicted a loss but stayed consistent in prior years. 
 ![output_109_0](https://user-images.githubusercontent.com/94020684/203548220-1a78a306-819d-4a68-a190-64dd26862f17.png)
+With the high degree of separability the AUC ROC score came out to be .9883.
