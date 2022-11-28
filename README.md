@@ -6,12 +6,12 @@ Looking at our data for pitchers over the past four full seasons you notice game
 ![output_28_1](https://user-images.githubusercontent.com/94020684/203548191-37c79d14-4fd8-46e2-8ddc-f7abe7457d5b.png)
 ![output_29_1](https://user-images.githubusercontent.com/94020684/203548193-b6b91797-a27e-4d50-b692-3d15f494b454.png)
 ![output_30_1](https://user-images.githubusercontent.com/94020684/203548194-6c0da5ba-4966-4c1e-bd45-c95c08f30133.png)
-#Correlated Variables
-The correlation matrix took in every pitching and hitting statistic that SNHU website has to offer. After reviewing the R^2 values the ones that returned the highest correlations were:
--'3B''HR', 'BB', 'SB','SF','PO','E','oBB','o2B','oHR','oH','oR', 'ER','ERA', 'opps', 'penman', 'AVG', 'AB', 'R','H', 'RBI'
 ![output_31_1](https://user-images.githubusercontent.com/94020684/203548195-33eb126b-1cf7-42a1-bdfe-a715cb2a96df.png)
 ![output_32_1](https://user-images.githubusercontent.com/94020684/203548198-7b044b6a-5e68-4c09-89b7-95e9f192d0d4.png)
 ![output_35_0](https://user-images.githubusercontent.com/94020684/203548200-cb9e7b3e-dbf1-408d-bc6f-4a17bdd51f28.png)
+## Correlated Variables
+The correlation matrix took in every pitching and hitting statistic that SNHU website has to offer. After reviewing the R^2 values the ones that returned the highest correlations were:
+-'3B''HR', 'BB', 'SB','SF','PO','E','oBB','o2B','oHR','oH','oR', 'ER','ERA', 'opps', 'penman', 'AVG', 'AB', 'R','H', 'RBI'
 ![output_38_0](https://user-images.githubusercontent.com/94020684/203548204-fc84d9ab-578c-41f6-b4c4-c881b0c2825f.png)
 ![output_39_1](https://user-images.githubusercontent.com/94020684/203548206-063c9ea2-026f-43c9-b56a-7c225691aee8.png)
 ![output_42_0](https://user-images.githubusercontent.com/94020684/203548210-b5cca937-9dd1-4d61-9154-3b21fda545e8.png)
