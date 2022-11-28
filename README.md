@@ -18,8 +18,15 @@ The correlation matrix took in every pitching and hitting statistic that SNHU we
    - penman, AVG, AB, R, H, RBI, ERA, opps, ER, oR (opponent runs), oH (Opponent hits)
 These statistics are very strong indicators of the teams success. 
 ![output_38_0](https://user-images.githubusercontent.com/94020684/203548204-fc84d9ab-578c-41f6-b4c4-c881b0c2825f.png)
+# Distributions
+Looking at the different distributions of the statistics that were captured in the analysis you can notice the majority have a normal distribution. Some contained exponential distributions such as:
+- SF, HR, 3B, SB, E, ER, ERA, oHR
+Base on balls for the SNHU followed closely to a gamma distribution (skewing to the right side of the distribution). The central tenancy was close to 8 walks per game which is very high in the game of baseball (based off professional level its about double).
+
 ![output_39_1](https://user-images.githubusercontent.com/94020684/203548206-063c9ea2-026f-43c9-b56a-7c225691aee8.png)
+- Runs, RBI, Average are the most correlated variables to winning for SNHU Penman Baseball.
 ![output_42_0](https://user-images.githubusercontent.com/94020684/203548210-b5cca937-9dd1-4d61-9154-3b21fda545e8.png)
+- Runs, ERA, ER are the most correlated variables to winning for SNHU Penman Baseball.
 ![output_44_0](https://user-images.githubusercontent.com/94020684/203548211-54e05706-c530-4cc2-97ba-37e3a2bb11ec.png)
 ![output_47_0](https://user-images.githubusercontent.com/94020684/203548212-ad95c0fb-130c-4ebd-ab4e-fdfebeb71b84.png)
 ![output_49_0](https://user-images.githubusercontent.com/94020684/203548214-ec8459f0-d9c1-4593-ab25-ee3b287bb684.png)
