@@ -14,8 +14,8 @@ The correlation matrix took in every pitching and hitting statistic that SNHU we
 - '3B''HR', 'BB', 'SB','SF','PO','E','oBB','o2B','oHR','oH','oR', 'ER','ERA', 'opps', 'penman', 'AVG', 'AB', 'R','H', 'RBI'
 - penman (Penman runs scored)
 - opps (Opponent runs scored)
-- >.70 R squared variables were:
-- - penman, AVG, AB, R, H, RBI, ERA, opps, ER, oR (opponent runs), oH (Opponent hits)
+- R squared variables with > .70:
+   - penman, AVG, AB, R, H, RBI, ERA, opps, ER, oR (opponent runs), oH (Opponent hits)
 These statistics are very strong indicators of the teams success. 
 ![output_38_0](https://user-images.githubusercontent.com/94020684/203548204-fc84d9ab-578c-41f6-b4c4-c881b0c2825f.png)
 ![output_39_1](https://user-images.githubusercontent.com/94020684/203548206-063c9ea2-026f-43c9-b56a-7c225691aee8.png)
