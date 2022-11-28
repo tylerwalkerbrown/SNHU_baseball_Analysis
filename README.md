@@ -24,12 +24,17 @@ Looking at the different distributions of the statistics that were captured in t
 Base on balls for the SNHU followed closely to a gamma distribution (skewing to the right side of the distribution). The central tenancy was close to 8 walks per game which is very high in the game of baseball (based off professional level its about double).
 
 ![output_39_1](https://user-images.githubusercontent.com/94020684/203548206-063c9ea2-026f-43c9-b56a-7c225691aee8.png)
-- Runs, RBI, Average are the most correlated variables to winning for SNHU Penman Baseball.
 ![output_42_0](https://user-images.githubusercontent.com/94020684/203548210-b5cca937-9dd1-4d61-9154-3b21fda545e8.png)
-- Runs, ERA, ER are the most correlated variables to winning for SNHU Penman Baseball.
+- Runs, RBI, Average are the most correlated variables to winning for SNHU Penman Baseball.
+
 ![output_44_0](https://user-images.githubusercontent.com/94020684/203548211-54e05706-c530-4cc2-97ba-37e3a2bb11ec.png)
+- Runs, ERA, ER are the most correlated variables to winning for SNHU Penman Baseball.
+# Home Field Advantage ?
 ![output_47_0](https://user-images.githubusercontent.com/94020684/203548212-ad95c0fb-130c-4ebd-ab4e-fdfebeb71b84.png)
+
+Looking at the average era of each of the different locations. This holds the common understanding of home field advantage showing a lower era while the Penman play at home. Neutral settings are actually holding the lowest era out of the three options. The reason that neutral is an option is becuase in college baseball you have times that fields may flood, snow (turf complex) and then playoffs are played at neutral settings if the host team is kicked out of the tournament.
 ![output_49_0](https://user-images.githubusercontent.com/94020684/203548214-ec8459f0-d9c1-4593-ab25-ee3b287bb684.png)
+Home and away does not sem to have a huge impact for SNHU hitters. Neutral settings are higher on average compared to both home and away.
 ![output_97_0](https://user-images.githubusercontent.com/94020684/203548215-9d405db0-2bd0-4cb5-92b2-ad3818584399.png)
 ![output_104_0](https://user-images.githubusercontent.com/94020684/203548217-bd52b430-7a24-4da3-a465-64ae9a195959.png)
 ![output_109_0](https://user-images.githubusercontent.com/94020684/203548220-1a78a306-819d-4a68-a190-64dd26862f17.png)
